@@ -1,0 +1,12 @@
+.password-warning{
+  color: red;
+  font-size: 1.4rem;
+}
+.loading-text{
+  text-align: center;
+  color:#007BFF;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  margin-top: 1.2rem;
+}

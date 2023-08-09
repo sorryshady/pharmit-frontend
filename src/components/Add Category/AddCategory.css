@@ -1,0 +1,29 @@
+.addCategory-container{
+  width: 80vw;
+  margin: 5rem auto;
+}
+.addCategory-form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem;
+  gap: 2.4rem;
+  margin: 1.2rem auto;
+  border: 1px solid #BBB;
+  border-radius: 10px;
+}
+.addCategory-form label{
+  display: block;
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+.addCategory-form input{
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+}

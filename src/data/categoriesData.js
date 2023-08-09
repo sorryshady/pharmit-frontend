@@ -1,0 +1,18 @@
+export const categoriesData = [
+  {
+    category_id: 1,
+    name: 'Pain Relief',
+    description: 'Medications for pain management',
+  },
+  {
+    category_id: 2,
+    name: 'First Aid',
+    description: 'Medical supplies for first aid treatment',
+  },
+  {
+    category_id: 3,
+    name: 'Vitamins and Supplements',
+    description: 'Nutritional supplements for various health needs',
+  },
+  // Add more categories here...
+]

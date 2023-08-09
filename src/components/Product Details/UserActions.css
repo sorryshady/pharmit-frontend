@@ -1,0 +1,26 @@
+.user-actions--form{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin: 1.2rem 0;
+}
+.user-actions--form label{
+  display: block;
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+.user-actions--form input{
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+}
+.form-sub{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}

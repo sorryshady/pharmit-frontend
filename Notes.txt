@@ -1,0 +1,33 @@
+Products: 
+  product_id: 
+  name:
+  description:
+  quantity:
+  price:
+  category_id:
+
+
+Categories:
+  category_id:
+  name:
+  description:
+
+
+Colors:
+  Primary Color: #007BFF (Main Color of Website)
+  Accents Green: #00C853 (for buttons, highlights, and positive actions)
+  Neutral White: #F5F5F5 (for background)
+  Subdued Grey: #E0E0E0 (secondary elements and borders)
+  Primary Text Color: #333 
+  Secondary Text Color: #666 (For secondary text, labels, less prominent text, desciptions etc..)
+  Accent Text Color: Either accent green or primary blue
+
+{
+  _id: new ObjectId("64d31f1a85d3ae3d3c66f4c2"),
+  product_id: 1,
+  name: 'Pain Relief Tablets',
+  description: 'Relieves mild to moderate pain',
+  quantity: 100,
+  price: 9.99,
+  category_id: 1
+}

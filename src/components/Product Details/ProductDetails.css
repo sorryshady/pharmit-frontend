@@ -1,0 +1,86 @@
+.productDetails-container{
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+}
+.product-info,.user-actions{
+  padding: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+.product-info{
+  width: 50%;
+  margin: 0 auto 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  letter-spacing: 0.5px; 
+}
+.product-info--name{
+  text-align: center;
+  font-size: 2rem;
+  color: #007BFF;
+}
+.product-info-label{
+  font-size: 1.6rem;
+}
+.btn-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  justify-content: center;
+}
+.btn-edit,.btn-save, .btn-cancel, .btn-delete{
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 1.2rem 2.4rem;
+  margin-top: 2.4rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+.btn-edit, .btn-save{
+  background-color: #007BFF;
+}
+.btn-edit:hover, .btn-save:hover{
+  background-color: white;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+}
+.btn-delete{
+  background-color: #EE4B2B;
+}
+.btn-delete:hover{
+  background-color: white;
+  color: #EE4B2B;
+  border: 1px solid #EE4B2B;
+}
+.btn-cancel{
+  background-color: #00C853;
+}
+.btn-cancel:hover{
+  background-color: white;
+  color: #00C853;
+  border: 1px solid #00C853;
+}
+.user-actions{
+  width: 60%;
+}
+.editing  {
+  width: 35%; 
+  justify-content: center;
+}
+.disabled,.disabled:hover{
+  background-color: #999 !important;
+  color: #fff;
+  border: none;
+}
+.info-message{
+  color: #007BFF;
+  font-size: 1.2rem;
+}
+/*  */
